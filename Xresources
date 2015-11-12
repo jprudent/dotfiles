@@ -1,0 +1,60 @@
+*background: #0d1926
+*foreground: #d9e6f2
+
+! --- standard colors ---
+! black
+*color0: #080808
+! bright_black
+*color8: #6c6c6c
+! red
+*color1: #dd3030
+! bright_red
+*color9: #ffffff
+! green
+*color2: #30dd30
+! bright_green
+*color10: #ffffff
+! yellow
+*color3: #dddd30
+! bright_yellow
+*color11: #ffffff
+! blue
+*color4: #3030dd
+! bright_blue
+*color12: #ffffff
+! magenta
+*color5: #dd30dd
+! bright_magenta
+*color13: #ffffff
+! cyan
+*color6: #30dddd
+! bright_cyan
+*color14: #ffffff
+! white
+*color7: #808080
+! bright_white
+*color15: #ffffff
+
+URxvt.perl-ext-common: default,keyboard-select,url-select,clipboard,font-size
+! Toute cette merde pour activer le copier/coller (ne fonctionne pas)
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.font: xft:Terminus:pixelsize=14
+
+! In/Decrease font size
+URxvt.keysym.C-equal:   perl:font-size:increase
+URxvt.keysym.C-minus:   perl:font-size:decrease
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+!desactivate the scrollbar
+URxvt.scrollBar: false
