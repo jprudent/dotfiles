@@ -3,7 +3,6 @@
 	name = Jérôme Prudent
 [github]
 	user = jprudent
-	token = 3b0eac2d483fc09fb2207726de8dfae2
 [alias]
 	co = checkout
 	br = branch
