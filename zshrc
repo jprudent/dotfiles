@@ -31,6 +31,10 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=$HOME/.history
 
+#Autocomplete
+autoload -U compinit
+compinit
+
 # Aliases
 
 alias ls='ls --color'
