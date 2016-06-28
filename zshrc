@@ -31,6 +31,8 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=$HOME/.history
 
+bindkey "^R" history-incremental-search-backward
+
 #Autocomplete
 autoload -U compinit
 compinit
