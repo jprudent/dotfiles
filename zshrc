@@ -46,6 +46,7 @@ alias l=la
 
 
 alias ga='git add'
+alias gap='git add -p'
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gco='git checkout'
