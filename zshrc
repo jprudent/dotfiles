@@ -59,6 +59,7 @@ alias gpf!='git push --force-with-lease'
 alias gst='git status'
 alias grh='git reset HEAD'
 alias gcfxh='git commit --fixup HEAD'
+alias g=git
 
 alias mvnci='mvn clean install'
 alias mvncist='mvn clean install -DskipTests'
@@ -82,3 +83,5 @@ path=(
   $MVN_HOME 
   $JAVA_HOME/bin
   $HOME/bin/idea/bin)
+  
+alias idea=$HOME/bin/idea/bin/idea.sh
