@@ -14,6 +14,7 @@
 [core]
     pager = head -n200
     editor = vim
+    excludesfile = /home/jprudent/.gitignore
 [diff]
     mnemonicPrefix = true
     tool = vimdiff
@@ -22,4 +23,11 @@
 [merge]
     conflictStyle=diff3
 [pull]
-    rebase = preserve
+    rebase = merges
+[rebase]
+	autosquash = true
+[rerere]
+	enabled = true
+[init]
+	defaultBranch = main
+
